@@ -1,0 +1,43 @@
+.about-me-font{
+	font-family:"Times New Roman", serif;
+}
+div{
+	background:white;
+}
+div:hover{
+	background:gray;
+}
+
+img .profile{
+	width:300px;
+	height:300px;
+	float:left;	/*置左*/
+}
+table,th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+}
+th,td{
+	padding :10px;
+}
+/*link style*/
+a:link{
+	color:red;
+}
+/*when link has been visited*/
+a:visited
+{
+	color:red;
+}
+/*when the cursor is on the link*/
+a:hover
+{
+	color:yellow;
+}
+/*when active the link*/
+a:active{
+    color:blue;
+}
+li {
+    line-height: 2em;
+}
