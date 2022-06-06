@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>demo html doctument</title>
+		  <link href="style.css" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
+	  <ul>
+        <li>關於我</li>
+        <li>課堂作品</li>
+        <li>課業之餘</li>
+        <li>聯繫我</li>
+      </ul>
+	<center>
+		<h1><b>about me</b></h1>
+	</center>
+			<div class="about-me">
+				<h1>許珀維</h1>
+				<!--img 套用css做大小控制靠左-->
+				<img class="profile" src="./images/profile-img.jpg" width="300" height="300">
+				<p class="about-me-font">
+				目前就讀於中央大學資管系,剛開始接觸各項網路知識,熱衷於接觸各種新知
+				</p>
+				<ol>
+				<!--li 套用css 控制line-height-->
+				<!--li 適用class select 套用font-family-->
+                  <li><i class="about-me-font"></i> <strong>Birthday:</strong> <span>1 May 2002</span></li>
+                  <li><i class="about-me-font"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><i class="about-me-font"></i> <strong>Age:</strong> <span>20</span></li>
+                  <li><i class="about-me-font"></i> <strong>Degree:</strong> <span>大學</span></li>
+				</ol>
+			</div>
+			<hr>
+			<center>
+		   <div class="project">
+			<p>
+				<table border="1">
+				<caption>一些課堂作品</caption>
+				<thead>
+					<tr>
+					<!--套用css 控制table border ,border collapse-->
+						<th>langugae</th><th>project name</th><th>project intro</th>
+					</tr>
+				</thead>
+				<tbody>
+				
+						<tr><td>python</td><td>蝦皮爬蟲</td><td>透過爬蟲,讓使用者知道如何有效的推銷自己的商品</td></tr>
+						<tr><td>java</td><td>點餐系統</td><td>透過JFrame套件設計出簡易的圖形介面來提供點餐服務</td></tr>
+						<tr><td>asmebly</td><td>五子棋</td><td>使用上課所學的語法,透過控制底層記憶體來模擬五子棋遊戲</td></tr>
+				</tbody>
+			</table>
+			</p>
+			</div>
+			</center>
+			<hr>
+			<div class="interest">
+				<div>
+					<h4>旅遊</h4>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/1_times_square_night_2013.jpg/325px-1_times_square_night_2013.jpg">
+					<p>去過不少國家,因為疫情這兩年都不能出國QQ</p>
+				</div>
+				<div>
+				<!--link 套用css 不同狀態有不同顏色-->
+				<h4><a href="https://www.youtube.com/watch?v=s3BsKbDmsqc&t=54s">遊戲</a></h4>
+				<p>閒暇之餘遊玩各類fps</p>
+				</div>
+				<div>
+				<h4><a href="https://tw.global.nba.com/teams/#!/warriors">運動</a></h4>
+				<p>接觸過籃球,高爾夫,桌球</p>
+				</div>
+			</div>
+			<hr>
+			<div class="contactme">
+			<form method="get" onsubmit="value()">
+				name:<input type="text"  id="name" required /><br>
+				subject:<input type="text"  id="subject" required /><br>
+				content:<textarea type="text"  id="text" required /><br>
+				<input type="submit"/>
+			</form>
+			</div>
+	</body>
+<html>
